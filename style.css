@@ -66,11 +66,15 @@ nav > ul > li > a {
 
 .photo-section {
   margin: 20px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .photo-wrapper {
-  display: inline-block;
+  /* display: inline-block; */
   margin: 0 0 1em;
+  width: 300px;
 }
 
 .photo-wrapper img {
